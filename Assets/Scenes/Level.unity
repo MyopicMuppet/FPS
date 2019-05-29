@@ -3953,7 +3953,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh4400
+  m_Name: pb_Mesh4430
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -4490,6 +4490,41 @@ Transform:
   m_Father: {fileID: 1590736990}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1753573033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 377703414051518864, guid: 9efa941b845532a448acce29172897f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8717673920032919665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1753573034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753573033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a84404f432a0e499c74b22b9ea34f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weighting: 7.5
+  target: {fileID: 1412539421}
+  stoppingDistance: 3
+--- !u!114 &1753573040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753573033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2fa6e0e9f1d1f4094978c7dc69237d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 5
+  maxDistance: 5
 --- !u!1 &2014170573
 GameObject:
   m_ObjectHideFlags: 0
@@ -5006,5 +5041,6 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1412539421}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2301989234833858342, guid: 9efa941b845532a448acce29172897f6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9efa941b845532a448acce29172897f6, type: 3}
